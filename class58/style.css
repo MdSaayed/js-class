@@ -1,0 +1,11 @@
+a{
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+p{
+    border-left: 2px solid green;
+    padding: 3px;
+    display: none;
+}

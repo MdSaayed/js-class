@@ -1,0 +1,39 @@
+summary{
+    background-color: rgb(237, 237, 237);
+    padding: 1.1em;
+}
+details p {
+    background-color: rgb(117, 120, 120);
+    padding: 1.5em;
+    transition:1s;
+}
+summary::after {
+    content:' +';
+}
+
+
+
+#result{
+    position: absolute;
+    top:50%;
+    right: 50%;
+}
+
+
+
+/* The animation code */
+
+  /* The element to apply the animation to */
+  svg {
+    width: 100px;
+    animation: example 2s infinite linear;
+    display: none;
+  }
+  @keyframes example {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
